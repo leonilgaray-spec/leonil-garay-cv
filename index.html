@@ -5,118 +5,178 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leonil Garay | CV y Gestión de Riesgos</title>
     <style>
+        /* Configuración General */
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             color: #333;
-            background-color: #f4f4f4;
+            background-color: #f4f4f4; /* Gris claro de fondo para resaltar la hoja */
             margin: 0;
             padding: 40px 20px;
         }
+
+        /* Contenedor principal tipo hoja de vida */
         .container {
             max-width: 900px;
             margin: 0 auto;
             background-color: #ffffff;
-            padding: 40px;
+            padding: 50px;
             box-shadow: 0 0 10px rgba(0,0,0,0.05);
         }
+
+        /* Encabezado */
+        header {
+            margin-bottom: 40px;
+        }
+
         h1 {
             font-family: 'Georgia', serif;
-            font-size: 32px;
+            font-size: 36px;
             margin-bottom: 5px;
             color: #000;
         }
+
+        .subtitle {
+            font-weight: bold;
+            font-size: 16px;
+            margin-top: 0;
+            color: #222;
+        }
+
+        .contact {
+            font-size: 14px;
+            color: #555;
+            margin-top: 10px;
+        }
+
+        .icon {
+            color: #d63384; /* Color magenta para los iconos */
+            font-weight: bold;
+        }
+
+        /* Secciones */
         h2 {
             font-family: 'Georgia', serif;
-            font-size: 22px;
-            color: #004a80;
+            font-size: 24px;
+            color: #004a80; /* Azul profesional para títulos */
             border-bottom: 1px solid #e0e0e0;
-            padding-bottom: 5px;
-            margin-top: 30px;
+            padding-bottom: 8px;
+            margin-top: 40px;
         }
-        h3 { color: #d63384; font-size: 18px; margin-top: 20px; }
-        .contact { font-size: 14px; color: #555; margin-bottom: 30px; }
+
+        h3 {
+            font-size: 18px;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .job-title {
+            font-weight: bold;
+            display: block;
+        }
+
+        /* Tablas Técnicas */
         table {
             width: 100%;
             border-collapse: collapse;
             margin: 20px 0;
+            font-size: 14px;
         }
+
         th, td {
             border: 1px solid #ddd;
             padding: 12px;
             text-align: left;
         }
-        th { background-color: #f8f9fa; color: #004a80; }
+
+        th {
+            background-color: #f8f9fa;
+            color: #004a80;
+        }
+
         .footer-note {
             font-size: 13px;
             font-style: italic;
-            margin-top: 40px;
-            padding-top: 10px;
+            margin-top: 50px;
+            color: #777;
             border-top: 1px solid #eee;
+            padding-top: 10px;
+        }
+
+        a {
+            color: #004a80;
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <header>
-        <h1>Leonil Garay Lindo</h1>
-        <p><strong>Jefe SHE | SSOMA | Gestión de Riesgos</strong></p>
-        <p class="contact">
-            📞 +51 964 103 198 | ✉️ leonilgaray@gmail.com | 
-            <a href="https://www.linkedin.com/in/leonil-gl/" style="color:#004a80; text-decoration:none;">LinkedIn</a>
+    <div class="container">
+        <header>
+            <h1>Leonil Garay Lindo</h1>
+            <p class="subtitle">Jefe SHE | SSOMA | Gestión de Riesgos</p>
+            <p class="contact">
+                <span class="icon">📞</span> +51 964 103 198 | 
+                <span class="icon">✉️</span> leonilgaray@gmail.com | 
+                <a href="https://www.linkedin.com/in/leonil-gl/">LinkedIn</a>
+            </p>
+        </header>
+
+        <section>
+            <h2>Perfil Profesional</h2>
+            <p>Ingeniero de Minas colegiado, con Máster en Gestión de Riesgos y Continuidad de Negocios y más de 15 años de experiencia en minería, construcción, sector industrial y consultoría. Especialista en SSOMA, SIG, normas ISO y liderazgo de equipos de alto desempeño.</p>
+        </section>
+
+        <section>
+            <h2>Experiencia Profesional</h2>
+            
+            <div style="margin-bottom: 20px;">
+                <span class="job-title">PEVOEX SAC – Perú</span>
+                Jefe de SSOMA (2024 – Actualidad)
+            </div>
+
+            <div style="margin-bottom: 20px;">
+                <span class="job-title">Consultor Independiente</span>
+                Gestión de Riesgos y Continuidad de Negocio (2022 – Actualidad)
+            </div>
+
+            <div style="margin-bottom: 20px;">
+                <span class="job-title">Minera Chinalco Perú S.A.</span>
+                Ingeniero Senior de Seguridad (2011 – 2021)
+            </div>
+        </section>
+
+        <section>
+            <h2>Modelo de Reason en Sistemas de Seguridad</h2>
+            <p>Análisis de condiciones latentes y barreras de control para la gestión organizacional.</p>
+            
+            <table>
+                <tr>
+                    <th>Tipo de Barrera</th>
+                    <th>Objetivo</th>
+                    <th>Jerarquía de Controles</th>
+                </tr>
+                <tr>
+                    <td><strong>Preventivas</strong></td>
+                    <td>Evitar el incidente</td>
+                    <td>Eliminación, Sustitución, Ingeniería, Administrativos</td>
+                </tr>
+                <tr>
+                    <td><strong>Mitigadoras</strong></td>
+                    <td>Reducir gravedad</td>
+                    <td>Ingeniería, Administrativos, EPP</td>
+                </tr>
+            </table>
+        </section>
+
+        <p class="footer-note">
+            <strong>Nota técnica:</strong> Este sistema es reconocido universalmente como el Modelo del Queso Suizo en seguridad industrial.
         </p>
-    </header>
-
-    <section>
-        <h2>Perfil Profesional</h2>
-        <p>Ingeniero de Minas colegiado, con Máster en Gestión de Riesgos y Continuidad de Negocios y más de 15 años de experiencia en minería, construcción, sector industrial y consultoría. Especialista en SSOMA, SIG, normas ISO y liderazgo de equipos de alto desempeño.</p>
-    </section>
-
-    <section>
-        <h2>Experiencia Profesional</h2>
-        <p><strong>PEVOEX SAC – Perú</strong><br>Jefe de SSOMA (2024 – Actualidad)</p>
-        <p><strong>Consultor Independiente</strong><br>Gestión de Riesgos y Continuidad de Negocio (2022 – Actualidad)</p>
-        <p><strong>Minera Chinalco Perú S.A.</strong><br>Ingeniero Senior de Seguridad (2011 – 2021)</p>
-    </section>
-
-    <section>
-        <h2>Modelo de Reason en Sistemas de Seguridad</h2>
-        <p>Análisis basado en condiciones latentes y barreras de control.</p>
-        
-        <h3>Condiciones Latentes</h3>
-        <ul>
-            <li>Decisiones de gestión y procesos organizacionales.</li>
-            <li>Deficiencias que debilitan las barreras de seguridad.</li>
-        </ul>
-
-        <h3>Jerarquía de Controles y Barreras</h3>
-        <table>
-            <tr>
-                <th>Tipo de Barrera</th>
-                <th>Objetivo</th>
-                <th>Jerarquía de Controles</th>
-            </tr>
-            <tr>
-                <td>Preventivas</td>
-                <td>Evitar el incidente</td>
-                <td>Eliminación, Sustitución, Ingeniería, Administrativos</td>
-            </tr>
-            <tr>
-                <td>Mitigadoras</td>
-                <td>Reducir gravedad</td>
-                <td>Ingeniería, Administrativos, EPP</td>
-            </tr>
-        </table>
-    </section>
-
-    <p class="footer-note">
-        <strong>Nota técnica:</strong> Reconocido universalmente como el Modelo del Queso Suizo.
-    </p>
-</div>
+    </div>
 
 </body>
 </html>
+
 
 
 
